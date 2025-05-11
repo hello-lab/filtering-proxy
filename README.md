@@ -9,30 +9,7 @@ This project implements a basic TCP proxy server that listens for incoming HTTP 
 - **Support for HTTP & HTTPS**: Handles both regular HTTP requests and secure HTTPS connections (via `CONNECT` method).
 - **Connection Management**: Efficiently forwards data between the client and the target server while handling errors.
 
-## Requirements
 
-- **Node.js**: Make sure you have Node.js installed to run the server.
-- **url.txt**: A text file that contains a list of blocked URLs (one per line).
-
-## Setup
-
-1. Clone or download the repository:
-    ```bash
-    git clone https://github.com/your-repository/tcp-proxy-server.git
-    cd tcp-proxy-server
-    ```
-
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-3. Create a file named `url.txt` in the project directory with a list of blocked URLs (one URL per line).
-
-4. Run the proxy server:
-    ```bash
-    node proxy.js
-    ```
 
 ## How It Works
 
